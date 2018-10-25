@@ -1,0 +1,66 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While loading <'Image' u'images/intro/oceanfloor.png'>:
+  File "game/intro.rpy", line 21, in script
+    "We weren’t sure what the alien ship was here for, or what it was supposed to be doing. Nobody could get into it. But it was sending out signals, real strong, aimed pulses-—some German scientist said they looked like brainwaves."
+IOError: Couldn't find file 'images/intro/oceanfloor.png'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/intro.rpy", line 21, in script
+    "We weren’t sure what the alien ship was here for, or what it was supposed to be doing. Nobody could get into it. But it was sending out signals, real strong, aimed pulses-—some German scientist said they looked like brainwaves."
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/ast.py", line 652, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/exports.py", line 1199, in say
+    who(what, *args, **kwargs)
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/character.py", line 1016, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/character.py", line 817, in do_display
+    **display_args)
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/character.py", line 566, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/ui.py", line 287, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/display/core.py", line 2649, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/display/core.py", line 3132, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/display/core.py", line 2055, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 485, in renpy.display.render.render_screen
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/display/layout.py", line 717, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 145, in renpy.display.render.render
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/display/layout.py", line 717, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 145, in renpy.display.render.render
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/display/layout.py", line 717, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 145, in renpy.display.render.render
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "accelerator.pyx", line 108, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/display/image.py", line 495, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/display/image.py", line 306, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 145, in renpy.display.render.render
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/display/im.py", line 580, in render
+    return cache.get(self, render=True)
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/display/im.py", line 266, in get
+    surf = image.load()
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/display/im.py", line 625, in load
+    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
+  File "/Users/aaronsilverbook/Desktop/Homebrew/renpy-7.0.0-sdk/renpy/loader.py", line 555, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'images/intro/oceanfloor.png'.
+
+Darwin-17.7.0-x86_64-i386-64bit
+Ren'Py 7.0.0.196
+DXR 0.1
+Wed Oct 24 17:33:04 2018

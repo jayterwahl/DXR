@@ -4,44 +4,47 @@ label intro:
 
 # Bg guy, smoke filled bar
 
-"It was fifteen years ago that the powers started."
+"Me? Oh, I must've been, what, ten years old, when it all started..."
 
-"Oh, not fifteen years exactly, nothing ominous like that. Just, about fifteen years ago. I was traveling at the time, visiting family abroad after the Russo-Japanese war had just ended. I heard the news right as I was returning home to the US of A."
+show intro0 with fade
 
-#
-# Life was sweet. There were more jobs than people, and not just quarter-an-hour newsie jobs neither. Five-dollar a day deals. It was a time of industry, and splendor.
-#
-# Everything was fine, before it started.
-#
-# Bg Roosevelt
-#
-# President Roosevelt came on the radio, and said he had big news. He said that we’d found aliens. The real McCoy.
-#
-# Not live aliens—a ship, real real old, at the bottom of the ocean. Far as we could tell, it’d been there since before dinosaurs, and some recent quake had unburied it. And woken it up.
-#
-# We weren’t sure what the alien ship was here for, or what it was supposed to be doing. Nobody  could get into it. But it was sending out signals, real strong, aimed pulses—some German scientist said they looked like brainwaves.
-#
-# Apparently when one of these signals hit you, you got...a certain compulsion.
-#
-# (bg chrysalis like a mummified man)
-#
-# We weren’t sure what was happening at first. Thought it was a new disease where people’s skin got hard like caterpillar cocoons. At first, doctors tried to cut into the pods, to free the people…
-#
-# But there was nothing but goo inside.
-#
-# The way caterpillars change into butterflies, there’s a period where their entire body dissolves, and there’s nothing to let you know they’re ever gonna reform.
-#
-# The government killed a lot of xenohumans, before they knew.
-#
-# It takes a few days. But if you leave the cocoons alone, eventually the people inside start to firm up again. Not quite the same—they tend to have different organs, and organs in different places. And they tend to be a little tougher.
-#
-# And they have powers.
-#
-# (bg a man emerging slimy from the cocoon, staring in horror at his hand which is currently an insect hand, like a fly)
-#
-# They’re disoriented at first. Or...more than disoriented. They’ve just had every part of their body melt and reform into something else—if they’re even done changing. They’ve spent the last two days having synaesthetic alien nightmares, and they can’t quite tell how many limbs they’re supposed to have. Now they’re a conduit for unknowable powers not of this world…
-#
-# ...and America needs them to go to war.
+"1905. Life was sweet. There were more jobs than people, and not just quarter-an-hour newsie jobs neither. Five-dollar a day deals. It was a time of industry, and splendor."
+
+"It didn't last."
+
+show roosevelt with fade
+
+"President Roosevelt came on the radio, and said he had big news. He said that we’d found aliens. The real McCoy."
+
+show oceanfloor with fade
+
+"Not live aliens--a ship, real real old, at the bottom of the ocean. Far as we could tell, it’d been there since before dinosaurs, and something had woken it up."
+
+"It was sending out signals--these real strong, aimed pulses...some German scientist said they looked like brainwaves."
+
+"We don't know how it chooses its targets. But we do know the effects."
+
+show cocoon with fade
+
+"We weren’t sure what was happening at first. Thought it was a new disease where people’s skin got hard like caterpillar cocoons. At first, doctors tried to cut into the pods, to free the people…"
+
+"But there was nothing but goo inside."
+
+"When caterpillars change into butterflies, there’s a period where their entire body dissolves, and there’s nothing to let you know they’re ever gonna reform."
+
+"Scientists killed a lot of xenohumans, before they knew they could reform."
+
+"It takes a few days. But if you leave the cocoons alone, eventually the people inside start to firm up again. Not quite the same—they tend to have different organs, and organs in different places. And they tend to be a little tougher."
+
+"And they have powers."
+
+show transformation with fade
+
+"They’re disoriented at first. Or...more than disoriented. They’ve just had every part of their body melt and reform into something else—if they’re even done changing. They’ve spent the last two days having synaesthetic alien nightmares, and they can’t quite tell how many limbs they’re supposed to have."
+
+"Now they’re a conduit for unknowable powers not of this world…"
+
+"...and America needs them to go to war."
 #
 # (Bg superpowered trench warfare)
 #

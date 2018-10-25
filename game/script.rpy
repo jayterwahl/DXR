@@ -6,12 +6,15 @@
 
 #Declare background images
 
-#Intro
-image intro0 = 'images/intro/spr_intro_all_0.png'
-image intro1 = 'images/intro/spr_intro_all_1.png'
-image intro2 = 'images/intro/spr_intro_all_2.png'
-image intro3 = 'images/intro/spr_intro_all_3.png'
-image intro4 = 'images/intro/spr_intro_all_4.png'
+#------------------------------
+#Intro images
+#------------------------------
+image intro0 = 'images/intro/intro0.jpg'
+image roosevelt = 'images/intro/roosevelt.jpg'
+image cocoon = 'images/intro/cocoon.jpg'
+image transformation = 'images/intro/transformation.jpg'
+image oceanfloor = 'images/intro/oceanfloor.png'
+
 image intro5 = 'images/intro/spr_intro_all_5.png'
 image intro6 = 'images/intro/spr_intro_all_6.png'
 image intro7 = 'images/intro/spr_intro_all_7.png'
@@ -20,7 +23,6 @@ image intro9 = 'images/intro/spr_intro_all_9.png'
 image intro10 = 'images/intro/spr_intro_all_10.png'
 image intro11 = 'images/intro/spr_intro_all_11.png'
 image intro12 = 'images/intro/spr_intro_all_12.png'
-image introbedroom = 'images/intro/bg_introduction.png'
 
 
 

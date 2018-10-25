@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/intro.rpy", line 3: expected 'image_name_component' not found.
-    show "images/backgrounds/pd01.png" with fade
-         ^
+File "game/intro.rpy", line 13: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show roosevelt with fade
+    ^
+
+File "game/intro.rpy", line 23: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show cocoon with fade
+    ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Wed Oct 24 15:30:13 2018
+Wed Oct 24 16:47:24 2018
